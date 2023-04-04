@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.red-button{
+  background-color: #f1356d; 
+  color: white;
+  outline: none;
+  border-radius: 8px;
+  border: 0;
+}
+
+.Navbar {
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 1rem rgb(187, 187, 187);
+}
+
+.Navbar h1 {
+  color: #f1356d;
+  font-size: 2.2rem;
+  border-right: 4px solid #f1356d;
+  padding-right: 10px;
+}
+
+.links a, .buttons button a {
+  text-decoration: none;
+  padding: 6px;
+  font-size: 1.5rem;
+}
+
+.buttons button a{
+  color: white;
+}
+
+.links a:hover {
+  color: #f1356d;
+}
+
+.Home{
+  padding: 1rem;
+  /* height: vh; */
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons button{
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.buttons button:hover{
+  background-color: #ff004c;
+}
+
+.List{
+  text-transform: capitalize;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.List h1{
+  margin: 1rem 10vw;
+}
+
+.list{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items:first baseline;
+  text-transform: capitalize;
+  margin: auto;
+}
+
+.projectDetails{
+  box-shadow:0px 0px 7px rgb(190, 190, 190);
+  padding: 2%;
+}
+
+.projectDetails:hover{
+  box-shadow:0px 0px 14px rgb(190, 190, 190);
+}
+
+.projectDetails h1{
+  margin: 1rem;
+  margin-left: 0rem;
+  color: #f1356d;
+}
+
+.projectDetails h2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.projectDetails button{
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  float: right;
+  margin-top: 5%;
+  margin-bottom: -5%;
+}
+
+.projectDetails button:hover{
+  background-color: #ff004c;
+}
+
+.loading-data, .Error{
+  margin: 10% 20%;
+  text-transform: capitalize;
+}
